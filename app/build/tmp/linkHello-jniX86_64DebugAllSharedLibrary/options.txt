@@ -1,0 +1,15 @@
+-shared
+-Wl,-soname,libhello-jni.so
+-o
+/home/kbp/Documents/android-ndk-master/hello-jni/app/build/intermediates/binaries/debug/all/obj/x86_64/libhello-jni.so
+/home/kbp/Documents/android-ndk-master/hello-jni/app/build/intermediates/objectFiles/x86_64DebugAllSharedLibrary/hello-jniMainC/cvkqzxl1q0ouuxnwihzkfux1d/hello-jni.o
+-Wl,--no-undefined
+-Wl,-z,noexecstack
+-Wl,-z,relro
+-Wl,-z,now
+--sysroot=/home/kbp/android-ndk-r11c/platforms/android-23/arch-x86_64
+-Wl,--build-id
+-gcc-toolchain
+/home/kbp/android-ndk-r11c/toolchains/x86_64-4.9/prebuilt/linux-x86_64
+-target
+x86_64-none-linux-android
